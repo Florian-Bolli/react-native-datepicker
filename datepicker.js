@@ -22,6 +22,8 @@ const FORMATS = {
   'time': 'HH:mm'
 };
 
+Moment.defaultFormat = 'YYYY.MM.DD'
+
 const SUPPORTED_ORIENTATIONS = ['portrait', 'portrait-upside-down', 'landscape', 'landscape-left', 'landscape-right'];
 
 class DatePicker extends Component {

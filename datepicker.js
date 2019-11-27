@@ -151,7 +151,7 @@ class DatePicker extends Component {
 
   getDateStr(date = this.props.date) {
     const {mode, format = FORMATS[mode]} = this.props;
-
+    console.log("GetDateString: ", date);
     const dateInstance = date instanceof Date
       ? date
       : this.getDate(date);
